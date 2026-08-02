@@ -1,25 +1,47 @@
-# 🎈 Blank app template
+# 📝 Ramp Koordine Nöbet Devir Raporu
 
-A simple Streamlit app template for you to modify!
+Bu proje, ramp koordinasyon vardiya devrine ait rapor formatını dijital olarak kaydetmenizi sağlar.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+### Nasıl kullanılır
 
-### How to run it on your own machine
+1. Proje dizinine girin:
 
-Prerequisite: install `uv` if you don't already have it.
-
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-1. Sync the dependencies
-
-   ```
-   $ uv sync
+   ```bash
+   cd /workspaces/blank-app
    ```
 
-2. Run the app
+2. Bağımlılıkları kurun:
 
+   ```bash
+   uv sync
    ```
-   $ uv run streamlit run streamlit_app.py
+
+3. Uygulamayı çalıştırın:
+
+   ```bash
+   uv run streamlit run streamlit_app.py
    ```
+
+4. Açılan sayfada alanları doldurun:
+   - Önceki vardiyadan devam eden uçuşlar
+   - Gün içerisinde teknikte bırakılan ekipman
+   - Erken çıkan personeller
+   - Mesaiye kalan personeller
+   - Ek hizmet takip
+   - Bilgilendirme
+   - Gelmeyen veya geç gelen personeller
+   - Devreden / Devralan
+
+5. `Raporu Kaydet` butonuna tıklayın.
+
+6. Kayıtlı raporlar sayfa içinde görüntülenecektir.
+
+### Özellikler
+
+- Günlük vardiya raporu kaydetme
+- Tarihe veya vardiyaya göre filtreleme
+- Uygulama içinde son kayıtların görüntülenmesi
+
+---
+
+`reports.csv` dosyası aynı dizinde otomatik olarak oluşturulur.
