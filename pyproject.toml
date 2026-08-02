@@ -3,9 +3,11 @@ name = "blank-app-template"
 version = "0.1.0"
 description = "A simple Streamlit app template."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
     "streamlit>=1.60.0",
+    "pandas>=2.0.0",
+    "XlsxWriter>=4.0.0",
 ]
 
 [tool.uv]
